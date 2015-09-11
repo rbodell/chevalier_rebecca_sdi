@@ -25,10 +25,28 @@ console.log(yearBorn);
 
 //We need to know the current year
 //Hardcoded - means type in a specific value.
-var_currentYear =2015;
+var currentYear =2015;
 
 //figure out age
 var age = currentYear - yearBorn-1;
 
 //alert user with their age
-alert(name+" "+age+" years old.);
+alert(name+" you are "+age+" years old.");
+console.log(name+" you are "+age+" years old.");
+
+//Make it complicated!
+
+//Figure out a future age
+var yearsMore = prompt("How many years in the future would you like to know?");
+
+console.log(yearsMore);
+
+//Future age is current age + years in the future
+//Cast the variable as a number when using +
+var futureAge = age + ParseInt(yearsMore) ;
+
+console.log(futureAge);
+
+//Console.log and alert the final values
+console.log("In "+yearsMore+" years, you will be "+futureAge+".");
+alert("In "+yearsMore+" years, you will be "+futureAge+". ");
