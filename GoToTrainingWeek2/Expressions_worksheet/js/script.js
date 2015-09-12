@@ -3,12 +3,12 @@
  * Expression Worksheet
  */
 
-//Calculate the Circumference of a Circle
-var radius = 6;
-const PI = 3.14159265;
 
-//multiply 2, PI and the radius & assign to circ variable.
-var circ = radius * 2 * PI;
-//print out the output circumference
-console.log("The circumference of the circle is "  + circ );
+// Note what sparky's age is in human years
+var sparkysAge = 1;
 
+// Note that 1 human years age is 7 dog years
+var dogYears = sparkysAge * 7;
+
+// Multiple x amount of human years * 7 which results in Sparky's age
+console.log("Sparky is " + sparkysAge + " human years old which is " + dogYears + " in dog years.");
