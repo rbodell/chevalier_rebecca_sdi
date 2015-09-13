@@ -14,7 +14,6 @@ Expressions Assignment
 
  //Fun comment to let the user know I retained the information
  alert("Oh, I love "+cablecompany+"!");
-
  //console.log
  console.log("Oh, I love "+cablecompany+"!");
 
@@ -32,7 +31,6 @@ Expressions Assignment
 
  //Funny comment to let the user know I retained the information
  alert("Yikes. Only "+takehomepay+"? Hope you graduate Full Sail...")
-
  //console.log
  console.log("Yikes. Only "+takehomepay+"? Hope you graduate Full Sail...");
 
@@ -44,7 +42,6 @@ Expressions Assignment
 
 //Letting the user know the result
  alert("So after your"+cablecompany+" bill of "+cablebillcharge+", you will have "+amountleftover+" to spend on other things!");
-
 //console.log
  console.log("So after your "+cablecompany+" bill of "+cablebillcharge+", you will have "+amountleftover+" to spend on other things!");
 
@@ -54,9 +51,19 @@ Expressions Assignment
  //Function for calculating yearly total charge of monthly bill
  var yearlycablecharge = cablebillcharge *= 12;
 
- //Calculating
- alert("Your "+cablecompany+" bill will cost you "+yearlycablecharge+" for 1 year, or 12 months.");
-
+ //Calculating for the year
+ alert("Your "+cablecompany+" bill will cost you "+yearlycablecharge+" for a total of 12 months.");
  //console.log
- console.log("Your "+cablecompany+" bill will cost you "+yearlycablecharge+" for 1 year, or 12 months.");
- 
+ console.log("Your "+cablecompany+" bill will cost you "+yearlycablecharge+" for a total of 12 months.");
+
+ alert("While we're at it, let's add in your electric bill and water bill!");
+
+ var electricbill = prompt ("How much is your electric bill?");
+
+ alert("Great. So your electric bills is "+electricbill+". Lets continue.");
+
+ var waterbill = prompt ("What is the amount of your water bill?");
+
+ alert("Okay. So you spend "+waterbill+" on water a month.");
+
+
