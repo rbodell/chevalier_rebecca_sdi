@@ -48,4 +48,15 @@ Expressions Assignment
 //console.log
  console.log("So after your "+cablecompany+" bill of "+cablebillcharge+", you will have "+amountleftover+" to spend on other things!");
 
+ //Letting the user know about the second function
+ alert("Since you are here, I can also let you know how much your cable bill will cost you for 12 months.")
+
+ //Function for calculating yearly total charge of monthly bill
+ var yearlycablecharge = cablebillcharge *= 12;
+
+ //Calculating
+ alert("Your "+cablecompany+" bill will cost you "+yearlycablecharge+" for 1 year, or 12 months.");
+
+ //console.log
+ console.log("Your "+cablecompany+" bill will cost you "+yearlycablecharge+" for 1 year, or 12 months.");
  
